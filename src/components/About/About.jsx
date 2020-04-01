@@ -3,6 +3,7 @@ import Fade from 'react-reveal/Fade';
 import { Container, Row, Col } from 'react-bootstrap';
 import Title from '../Title/Title';
 import AboutImg from '../Image/AboutImg';
+
 import PortfolioContext from '../../context/context';
 
 const About = () => {
@@ -56,7 +57,7 @@ const About = () => {
                       className="cta-btn cta-btn--resume"
                       href={resume}
                     >
-                      Resume
+                      Download Resume
                     </a>
                   </span>
                 )}
